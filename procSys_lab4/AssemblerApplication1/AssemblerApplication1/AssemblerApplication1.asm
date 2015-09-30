@@ -1,0 +1,23 @@
+/*
+ * AssemblerApplication1.asm
+ *
+ *  Created: 9/23/2015 10:18:30 AM
+ *   Author: Jonathan
+ */ 
+.ORG 0
+LDI  R16,HIGH(RAMEND)
+OUT  SPH,R16
+LDI  R16,LOW(RAMEND)
+OUT  SPL,R16
+LDI  R20,0x10
+LDI  R21, 0x20
+LDI  R22,0x30
+PUSH R20
+PUSH R21
+PUSH R22
+POP R21
+POP R0
+POP R20
+L1: RJMP L1
+
+

@@ -1,0 +1,6 @@
+
+AVRASM ver. 2.1.57  C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab4\lab 4-A_2\lab 4-A_2\lab 4-A_2.asm Mon Sep 28 20:08:22 2015
+
+[builtin](2): Including file 'C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m169Pdef.inc'
+C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab4\lab 4-A_2\lab 4-A_2\lab 4-A_2.asm(30): error: EQU: Unknown instruction or macro
+C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab4\lab 4-A_2\lab 4-A_2\lab 4-A_2.asm(30): error: syntax error, unexpected INTEGER
