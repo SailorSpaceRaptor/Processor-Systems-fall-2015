@@ -1,0 +1,79 @@
+/*
+ * lab5_1.asm
+ *
+ *  Created: 9/29/2015 1:31:35 PM
+ *   Author: Jonathan
+ */ 
+
+ //Lab 5 - 1
+
+// This application takes values and sends them to PORTB to output and control the behavior of 
+//8 LEDs  in a line to show bitwise operations
+
+.ORG 0
+LDI R16,HIGH(RAMEND)  ;load SPH
+OUT SPH,R16
+LDI R16,LOW(RAMEND)  ;load SPL
+OUT SPL,R16
+LDI  R20,0xFF ;R20 = 0xFF
+OUT  DDRB,R20  ;DDRB = R20 (Port B output)
+
+//this loop loads r16 with a value, sends it to 
+back: LDI  R16,0x01  ;load R16 with 0x01 
+OUT  PORTB,R16  ;send r16 to port B	  
+CALL DELAY
+LDI R16, 0X03 
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X07
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X0F
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X1f
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X3f
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X7f
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0Xff
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X7f
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X3f
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X1f
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X0f
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X07
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X03
+OUT PORTB, R16
+CALL DELAY
+LDI R16, 0X01
+OUT PORTB, R16
+CALL DELAY
+rjmp back
+
+DELAY:
+ldi R20,32
+L1: ldi R21,200
+L2: ldi R22,250
+L3: nop nop
+dec R22 brne L3 dec R21
+brne L2 dec R20
+brne L1 
+ret
+
+	  

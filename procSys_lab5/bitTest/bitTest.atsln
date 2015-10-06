@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{18226A42-8477-4023-8AD2-40C49DA407C9}") = "bitTest", "bitTest\bitTest.asmproj", "{EC49F6B2-584E-433F-A6C4-72E3F6EA8070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC49F6B2-584E-433F-A6C4-72E3F6EA8070}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EC49F6B2-584E-433F-A6C4-72E3F6EA8070}.Debug|AVR.Build.0 = Debug|AVR
+		{EC49F6B2-584E-433F-A6C4-72E3F6EA8070}.Release|AVR.ActiveCfg = Release|AVR
+		{EC49F6B2-584E-433F-A6C4-72E3F6EA8070}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
