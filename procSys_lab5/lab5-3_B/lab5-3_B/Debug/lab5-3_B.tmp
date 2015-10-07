@@ -22,9 +22,9 @@
  </OUTPUT_FILES>
  <LABELS>
   <loop><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>18</LINE></loop>
-  <DELAY><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>84</LINE></DELAY>
-  <L1><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>85</LINE></L1>
-  <L2><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>86</LINE></L2>
-  <L3><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>87</LINE></L3>
+  <DELAY><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>89</LINE></DELAY>
+  <L1><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>90</LINE></L1>
+  <L2><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>91</LINE></L2>
+  <L3><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm</FILE><LINE>92</LINE></L3>
  </LABELS>
 </ASSEMBLER_INFO>

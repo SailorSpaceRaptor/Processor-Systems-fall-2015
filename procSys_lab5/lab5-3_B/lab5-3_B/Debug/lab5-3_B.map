@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.57  C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm Mon Oct 05 22:40:10 2015
+AVRASM ver. 2.1.57  C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab5\lab5-3_B\lab5-3_B\lab5-3_B.asm Tue Oct 06 13:48:57 2015
 
 
 EQU  SIGNATURE_000 0000001e
@@ -928,7 +928,7 @@ EQU  SPMRaddr     0000002a
 EQU  LCDSFaddr    0000002c
 EQU  INT_VECTORS_SIZE 0000002e
 CSEG loop         00000006
-CSEG DELAY        0000005a
-CSEG L1           0000005b
-CSEG L2           0000005c
-CSEG L3           0000005d
+CSEG DELAY        00000051
+CSEG L1           00000052
+CSEG L2           00000053
+CSEG L3           00000054

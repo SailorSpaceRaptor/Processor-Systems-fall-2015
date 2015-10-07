@@ -18,66 +18,71 @@
  loop: ldi r17, 0b00001010//define registers and numerals to be used
        ldi r18, 0b00001100
        ldi r19, 0b00000101
-	   OUT PORTB, r17 //load first four bit number
+	   
+	   //first addition op
+	   ldi r23, 0b10101100
+	   add r17, r18
+	   OUT PORTB, r23
 	   call DELAY
-	   out portB, r18 //load second four bit number
-	   call DELAY
-	   add r18,r17 //add two numbers
-	   out PORTB, r18 //show sum
-	   call DELAY
-	   out PORTB, r16
-	   call DELAY
-	   ldi r18, 0b00001100 //second addition operation
-	   out PORTB, r18
-	   call DELAY
-	   out PORTB, r19
-	   call DELAY
-	   add r19, r18
-	   out PORTB, r19
+	   out PORTB, r17
+	   ldi r17, 0b00001010 //revert r17 back
 	   call DELAY
 	   out PORTB, r16
 	   call DELAY
-	   ldi r19, 0b00000101
-	   out PORTB, r17//third addition operation adds all three
+
+	   //second addition op
+	   ldi r23, 0b11000101
+	   add r18,r19
+	   out PORTB, r23
 	   call DELAY
 	   out PORTB, r18
-	   call DELAY
-	   out PORTB, r19
-	   call DELAY
-	   add r19, r17
-	   add r19, r18
-	   out PORTB, r19
+	   ldi r18, 0b00001100 //revert r18 back
 	   call DELAY
 	   out PORTB, r16
-	   //first multiplication operation
-	   ldi r19, 0b00000101
-	   out PORTB, r19
 	   call DELAY
-	   out PORTB, r18
+
+	   //third addition op
+	   ldi r23, 0b10100101
+	   add r17, r19
+	   OUT PORTB, r23
 	   call DELAY
-	   MUL r19, r18
+	   out PORTB, r17
+	   ldi r17, 0b00001010 //revert r17 back
+	   call DELAY
+	   out PORTB, r16
+	   call DELAY
+	   
+	   //first multiplication op
+	   ldi r23, 0b01011100
+	   mul r18, r19
+	   out PORTB, r23
+	   call DELAY
+	   out PORTB, r0
+	   ldi r18, 0b00001100 //revert r18 back
+	   call DELAY
+	   out PORTB, r16
+	   call DELAY
+
+	   //second multiplication op
+	   ldi r23, 0b10101100
+	   mul r18, r17
+	   out PORTB, r23
+	   call DELAY
+	   out PORTB, r0
+	   ldi r18, 0b00001100 //revert r18 back
+	   call DELAY
+	   out PORTB, r16
+	   call DELAY
+
+	   //third multiplication op
+	   ldi r23, 0b10100101
+	   mul r19, r17
+	   out PORTB, r23
+	   call DELAY
 	   out PORTB, r0
 	   call DELAY
-	   ldi r19, 0b00000101
 	   out PORTB, r16
 	   call DELAY
-	   out PORTB, r17 //second multiplication operation
-	   call DELAY
-	   out PORTB, r18
-	   MUL r17, r18
-	   out PORTB, r17
-	   call DELAY
-	   out PORTB, r16
-	   call DELAY
-	   //third multiplication operation
-	   out PORTB, r17
-	   call DELAY
-	   out PORTB, r19
-	   call DELAY
-	   mul r19, r17
-	   out PORTB, r19
-	   CALL DELAY
-	   out portb, r16
 	   rjmp loop //loop back
 
 //delay subroutine
