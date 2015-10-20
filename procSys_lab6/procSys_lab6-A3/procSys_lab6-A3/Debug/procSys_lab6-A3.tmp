@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m169Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\Debug/procSys_lab6-A3.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>procSys_lab6-A3.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>procSys_lab6-A3.map</FILE>
+  <FILE>procSys_lab6-A3.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <CASE><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>20</LINE></CASE>
+  <F1><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>35</LINE></F1>
+  <F2><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>52</LINE></F2>
+  <F3><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>69</LINE></F3>
+  <F4><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>83</LINE></F4>
+  <DELAY><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>98</LINE></DELAY>
+  <L1><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>99</LINE></L1>
+  <L2><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>100</LINE></L2>
+  <L3><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab6\procSys_lab6-A3\procSys_lab6-A3\procSys_lab6-A3.asm</FILE><LINE>101</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>
