@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\Jonathan\Documents\Atmel Studio\6.2\inClassex\inClassex\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\inClassex\inClassex\inClassex.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m169Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\inClassex\inClassex\Debug/inClassex.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>inClassex.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>inClassex.map</FILE>
+  <FILE>inClassex.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <L1><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\inClassex\inClassex\inClassex.asm</FILE><LINE>20</LINE></L1>
+  <here><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\inClassex\inClassex\inClassex.asm</FILE><LINE>46</LINE></here>
+ </LABELS>
+</ASSEMBLER_INFO>
