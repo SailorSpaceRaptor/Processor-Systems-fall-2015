@@ -1,0 +1,33 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega169P"</DEVICE>
+ <WORKING_DIR>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m169Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\Debug/procSys_lab7-3B.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>procSys_lab7-3B.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>procSys_lab7-3B.map</FILE>
+  <FILE>procSys_lab7-3B.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <L><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>26</LINE></L>
+  <ONE><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>34</LINE></ONE>
+  <DELAY><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>48</LINE></DELAY>
+  <NXT><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>40</LINE></NXT>
+  <here><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>45</LINE></here>
+  <L1><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>49</LINE></L1>
+  <L2><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>50</LINE></L2>
+  <L3><FILE>C:\Users\Jonathan\Documents\Atmel Studio\6.2\procSys_lab7\procSys_lab7-3B\procSys_lab7-3B\procSys_lab7-3B.asm</FILE><LINE>51</LINE></L3>
+ </LABELS>
+</ASSEMBLER_INFO>
